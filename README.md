@@ -1,3 +1,3 @@
 # hackathoncuziloveit
 
-Project for 2025 "Hack For Balance" Hackathon.
+Project for 2025 'Reboot the world' Ideathon.
