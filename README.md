@@ -1,4 +1,4 @@
-#Project for 2025 'Reboot the world' Ideathon.
+# Project for 2025 'Reboot the world' Ideathon.
 
 ---
 
