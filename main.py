@@ -10,8 +10,8 @@ import pyttsx3
 
 app = Flask(__name__)
 
-VIDEO_URL = "http://192.168.1.25:8080/video"
-SNAPSHOT_URL = "http://192.168.1.25:8080/shot.jpg"
+VIDEO_URL = "<IP>:<PORT>/video"
+SNAPSHOT_URL = "<IP>:<PORT>/shot.jpg"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
@@ -56,3 +56,4 @@ def caption():
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0")
+
